@@ -36,7 +36,7 @@ p{
 .header{
     background-color: white;
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 50px;
     top: 0;
     display: flex;
     position: fixed;
@@ -68,18 +68,22 @@ p{
 
 .loginbtn button{
     background-color: white;
+    font-size: 16px;
+    font-weight: 700;
     border: 0;
     color: rgb(0, 89, 255);
     padding: 10px;
     cursor: pointer;
 }
 
-.signbtn button{
+.signbtn button {
     color: white;
+    font-size: 15px;
+    font-weight: 700;
     background-color: rgb(0, 89, 255);
     border: 0;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding:15px 25px;
     cursor: pointer;
 }
 
@@ -98,7 +102,7 @@ p{
     width: 100%;
     margin-top: 150px;
     height: 600px;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-right: 20px;
     justify-content: space-between;
     display: flex;
@@ -167,7 +171,7 @@ p{
 .box2email{
     border: 2px solid whitesmoke;
     width: 300px;
-    height: 45px;
+    height: 50px;
     padding: 10px 20px;
     border-radius: 5px;
 }
@@ -176,10 +180,11 @@ p{
     width: 150px;
     height: 20px;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     float: right;
     margin-top: 195px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .sec{
@@ -201,7 +206,7 @@ p{
     width: 100%;
     margin-top: 50px;
     height: fit-content;
-    padding: 40px;
+    padding: 50px;
     justify-content: space-between;
     display: flex;
 }
@@ -361,7 +366,7 @@ p{
 }
 
 .vl3{
-    border-left: 1px solid white;
+    border-left: 0px solid white;
     height: 100px;
     margin-left: 10px;
     margin-right: 70px;
@@ -390,7 +395,7 @@ p{
     background-color: rgb(0, 89, 255);
     width: 100%;
     height: 1000px;
-    padding-left: 40px;
+    padding-left: 50px;
     padding-top: 50px;
     overflow: hidden;
     display: flex;
@@ -454,7 +459,7 @@ p{
     margin-top: 50px;
     width: 100%;
     height: 200px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .center{
@@ -493,14 +498,14 @@ p{
 @keyframes animate{
     0%{margin-top: -430px;}
     0%{margin-top: -430px;}
-    5%{margin-top: -340px;}
-    20%{margin-top: -340px;}
+    5%{margin-top: -345px;}
+    20%{margin-top: -345px;}
     25%{margin-top: -250px;}
     40%{margin-top: -250px;}
     45%{margin-top: -160px;}
     60%{margin-top: -160px;}
-    65%{margin-top: -70px;}
-    80%{margin-top: -70px;}
+    65%{margin-top: -60px;}
+    80%{margin-top: -60px;}
     85%{margin-top: 0px;}
     95%{margin-top: 0px;} 
 }
@@ -513,7 +518,7 @@ p{
     justify-content: space-between;
     width: 100%;
     margin-top: 50px;
-    padding: 20px;
+    padding: 50px;
 }
 
 .boxsec6{
@@ -561,6 +566,7 @@ sub{
 .btn4{
     background-color: rgb(1, 1, 80);
     display: flex;
+    flex-wrap: nowrap;
     text-align: justify;
     line-height: 0.5;
     justify-content: center;
@@ -612,7 +618,7 @@ sub{
 
 .section7{
     background-color: rgb(0, 89, 255);
-    width: 97%;
+    width: 92%;
     height: 300px;
     margin-top: 50px;
     padding: 0 100px;
@@ -671,6 +677,7 @@ sub{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-left: 15px;
     padding-right: 200px;
     margin-top: 100px;
 }
@@ -714,7 +721,7 @@ sub{
     width: 100%;
     background-color: ghostwhite;
     background-image: url(image/home-device-section.svg);
-    padding: 20px;
+    padding: 50px;
 }
 
 .social{
@@ -736,6 +743,7 @@ sub{
 
 .licensebox{
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
     float: right;
