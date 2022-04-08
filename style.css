@@ -841,7 +841,7 @@ sub{
 
 /* MEDIA QUERY */
 
-@media screen and (max-width:960px){
+@media screen and (max-width:480px){
     .container{
         flex-direction: column;
     }
@@ -892,24 +892,25 @@ sub{
     }
 
     .backg{
-        height: 500px;
+        width: 270px;
+        height: 640px;
     }
 
     .imagediv{
-        width: 87%;
-        height: 60%;
+        width: 85%;
+        height: 58%;
         margin-left: 20px;
         margin-top: 20px;
     }
 
     .images{
-        margin-top: 430px;
+        margin-top: 570px;
         margin-left: 20px;
     }
 
     .imagetext{
-        margin-top: 250px;
-        margin-left: 20px;
+        margin-top: 380px;
+        margin-left: 19px;
         width: 300px;
         height: 170px;
     }
@@ -921,6 +922,7 @@ sub{
     .box2{
         width: 95%;
         padding-top: 50px;
+        padding-left: 20px;
     }
 
     .box2text{
@@ -948,23 +950,29 @@ sub{
     #section2{
         flex-direction: column;
         padding: 20px;
+        margin-top: 150px;
     }
 
     .section2{
         width: 100%;
+        padding: 0 20px;
     }
 
     .box3{
-        height: 200px;
+        height: 180px;
     }
 
     .box3head{
-        font-size: 35px;
+        font-size: 30px;
+    }
+
+    .box4{
+        width: 95%;
     }
 
     .box4div{
-        padding-left: 70px;
-        padding-right: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .box4text{
@@ -972,7 +980,7 @@ sub{
     }
 
     .box4head{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .text4{
@@ -1000,7 +1008,8 @@ sub{
     }
 
     .screenshot{
-        margin-left: 50px;
+       margin-right: auto;
+       margin-left: auto;
     }
 
     /* SECTION THREE */
@@ -1019,6 +1028,7 @@ sub{
     .box5{
         width: 250px;
         height: 510px;
+        margin-left: 20px;
         position: absolute;
     }
 
@@ -1029,7 +1039,7 @@ sub{
     }
 
     .box6head{
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         margin-bottom: 40px;
     }
