@@ -89,20 +89,11 @@ p{
 
 /* SECTION ONE */
 
-.backg{
-    background-color: antiquewhite;
-    height: 720px;
-    width: 350px;
-    position: absolute;
-    margin-right: 1000px;
-    z-index: 1;   
-}
+
 
 .section1{
     width: 100%;
-    margin-top: 150px;
-    height: 600px;
-    padding-left: 50px;
+    margin-top: 80px;
     padding-right: 20px;
     justify-content: space-between;
     display: flex;
@@ -111,13 +102,23 @@ p{
 
 .box1{
     width: 45%;
-    height: 95%;
+    height: 780px;
     z-index: 2;
 }
 
+.backg{
+    background-color: antiquewhite;
+    height: 780px;
+    width: 350px;
+    position: absolute    
+}
+
 .imagediv{
-    width: 90%;
-    height: 85%;
+    width: 40%;
+    height: 95%;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
     z-index: 2;
 }
 
@@ -131,11 +132,16 @@ p{
     color: rgb(131, 127, 127);
     background-color: white;
     position: absolute;
-    margin-top: -180px;
-    margin-left: 270px;
+    margin-top: 540px;
+    margin-left: 350px;
     padding: 20px 20px;
     width: 300px;
     height: 190px;
+    z-index: 2;
+}
+
+.imagetext p{
+    font-size: 16px;
 }
 
 .box2link{
@@ -145,7 +151,10 @@ p{
 
 .images{
     display: flex;
-    margin-top: 30px;
+    margin-top: 700px;
+    margin-left: 50px;
+    position: absolute;
+    z-index: 2;
 }
 
 .subimagediv{
@@ -156,7 +165,7 @@ p{
 
 .box2{
     width: 45%;
-    height: 95%;
+    padding-top: 100px;
 }
 
 .box2head{
@@ -177,6 +186,10 @@ p{
     border-radius: 5px;
 }
 
+.box2btn{
+    display: none;
+}
+
 .boxsec{
     width: 150px;
     height: 20px;
@@ -184,7 +197,7 @@ p{
     flex-wrap: nowrap;
     justify-content: space-between;
     float: right;
-    margin-top: 195px;
+    margin-top: 280px;
     margin-right: 30px;
 }
 
@@ -241,6 +254,7 @@ p{
 
 .box4div{
     padding-left: 40px;
+    padding-right: 20px;
 }
 
 .box4text{
@@ -265,6 +279,31 @@ p{
     font-size: 14px;
     font-weight: bold;
 }
+
+.box4ctext{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+
+.box4chead{
+    font-size: 35px;
+    color: white;
+}
+
+.text4c{
+    font-size: 20px;
+    color: rgb(241, 233, 233);
+}
+
+.box4clink{
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
 
 .subbox4{
     width: 100%;
@@ -342,10 +381,20 @@ p{
     height: 94%;
 }
 
+.box6head{
+    font-size: 35px;
+    color: rgb(1, 1, 80);
+}
+
 .subbox6{
     width: 100%;
     height: 65%;
     margin-bottom: 60px;
+}
+
+.textbox6{
+    font-size: 20px;
+    color: rgb(131, 127, 127);
 }
 
 .number{
@@ -791,3 +840,247 @@ sub{
 
 
 /* MEDIA QUERY */
+
+@media screen and (max-width:960px){
+    .container{
+        flex-direction: column;
+    }
+
+    h1{
+        margin-top: 0;
+    }
+    
+    p{
+        margin-top: 0;
+    }
+
+    /* HEADER */
+    .header{
+        display: none;
+        padding: 0;
+    }
+
+    .navlist {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .dropbtn{
+        display: block;
+        padding: 0;
+    }
+
+    .lsbtn{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* SECTION ONE */
+
+    .section1{
+        margin-top: 80px;
+        padding: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .box1{
+        width: 95%;
+        height: 500px;
+        margin-top: 15px;
+    }
+
+    .backg{
+        height: 500px;
+    }
+
+    .imagediv{
+        width: 87%;
+        height: 60%;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .images{
+        margin-top: 430px;
+        margin-left: 20px;
+    }
+
+    .imagetext{
+        margin-top: 250px;
+        margin-left: 20px;
+        width: 300px;
+        height: 170px;
+    }
+    
+    .imagetext p{
+        font-size: 14px;
+    }
+    
+    .box2{
+        width: 95%;
+        padding-top: 50px;
+    }
+
+    .box2text{
+        font-size: 16px;
+    }
+
+    .box2head{
+        font-size: 40px;
+    }
+
+    .box2input{
+        display: none;
+    }
+
+    .box2btn{
+        display: flex;
+    }
+
+    .boxsec{
+        display: none;
+    }
+
+    /* SECTION TWO */
+
+    #section2{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .section2{
+        width: 100%;
+    }
+
+    .box3{
+        height: 200px;
+    }
+
+    .box3head{
+        font-size: 35px;
+    }
+
+    .box4div{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .box4text{
+        font-size: 17px;
+    }
+
+    .box4head{
+        font-size: 30px;
+    }
+
+    .text4{
+        font-size: 15px;
+    }
+
+    .box4link{
+        font-size: 12px;
+    }
+
+    .box4ctext{
+        font-size: 17px;
+    }
+    
+    .box4chead{
+        font-size: 30px;
+    }
+    
+    .text4c{
+        font-size: 15px;
+    }
+    
+    .box4clink{
+        font-size: 12px;
+    }
+
+    .screenshot{
+        margin-left: 50px;
+    }
+
+    /* SECTION THREE */
+    .section3{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 100px 50px;
+    }
+
+    .background3{
+        width: 700px;
+        height: 400px;
+    }
+
+    .box5{
+        width: 250px;
+        height: 510px;
+        position: absolute;
+    }
+
+    .box6{
+        width: 100%;
+        margin-top: 500px;
+        text-align: center;
+    }
+
+    .box6head{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .no{
+        font-size: 18px;
+    }
+
+    .nohead{
+        font-size: 20px;
+    }
+
+    .textbox6{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    /* SECTION FOUR */
+    .section4{
+        width: 100%;
+        height: 1200px;
+        flex-direction: column;
+        padding: 100px 20px;
+    }
+
+    .security{
+        display: none;
+    }
+
+    .subsec4{
+        width: 95%;
+    }
+
+    .securityhead{
+        font-size: 40px;
+    }
+
+    .textsec4{
+        font-size: 16px;
+    }
+
+    .bank{
+        flex-direction: column;
+    }
+
+    .subbank{
+        width: 96%;
+    }
+
+    .banktext{
+        font-size: 16px;
+    }
+}
+
