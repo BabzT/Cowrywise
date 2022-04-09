@@ -677,7 +677,7 @@ sub{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 100px;
+    padding: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1185,7 +1185,7 @@ sub{
     }
 
     .box7email{
-        width: 250px;
+        width: 100%;
         margin-bottom: 15px;
     }
 
