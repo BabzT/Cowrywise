@@ -370,10 +370,15 @@ p{
 }
 
 .box5{
+    width: 45%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+}
+
+.investmentbox{
     width: 380px;
     height: 770px;
-    margin-left: 100px;
-    position: absolute;
 }
 
 .box6{
@@ -1027,7 +1032,7 @@ sub{
         width: 100%;
         flex-direction: column;
         justify-content: space-between;
-        padding: 100px 40px;
+        padding: 100px 0;
         margin-top: 100px;
     }
 
@@ -1037,15 +1042,20 @@ sub{
     }
 
     .box5{
+        width: 100%;
+    }
+
+    .investmentbox{
         width: 250px;
         height: 510px;
-        margin-left: 20px;
-        position: absolute;
+       margin-left: 40px;
     }
 
     .box6{
-        width: 100%;
+        width: 85%;
         margin-top: 500px;
+        margin-left: 40px;
+        margin-right: 40px;
         text-align: center;
     }
 
