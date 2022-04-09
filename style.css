@@ -328,13 +328,14 @@ p{
 .screenshot{
     width: 330px;
     margin-top: 25px;
-    margin-left: 150px;
     height: 700px;
 }
 
 .screenshotbox{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
     position: absolute;
     opacity: 0;
     transition: all .7s ease;
@@ -1024,8 +1025,7 @@ sub{
     }
 
     .screenshot{
-       margin-right: auto;
-       margin-left: auto;
+       margin-top: 80px;
     }
 
     /* SECTION THREE */
@@ -1152,10 +1152,10 @@ sub{
         20%{margin-top: -325px;}
         25%{margin-top: -225px;}
         40%{margin-top: -225px;}
-        45%{margin-top: -130px;}
-        60%{margin-top: -130px;}
-        65%{margin-top: -58px;}
-        80%{margin-top: -58px;}
+        45%{margin-top: -122px;}
+        60%{margin-top: -122px;}
+        65%{margin-top: -57px;}
+        80%{margin-top: -57px;}
         85%{margin-top: 0px;}
         95%{margin-top: 0px;} 
     }
