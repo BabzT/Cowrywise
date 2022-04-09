@@ -678,6 +678,7 @@ sub{
 
 .section7{
     background-color: rgb(0, 89, 255);
+    box-shadow: 5px 10px 18px rgb(117, 165, 255);
     width: 92%;
     margin-top: 50px;
     margin-left: auto;
@@ -1048,7 +1049,6 @@ sub{
     .investmentbox{
         width: 250px;
         height: 510px;
-       margin-left: 40px;
     }
 
     .box6{
