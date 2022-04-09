@@ -445,9 +445,9 @@ p{
     position: relative;
     background-color: rgb(0, 89, 255);
     width: 100%;
-    height: 1000px;
     padding-left: 50px;
     padding-top: 50px;
+    padding-bottom: 100px;
     overflow: hidden;
     display: flex;
 }
@@ -460,8 +460,11 @@ p{
 }
 
 .subsec4{
-    position: absolute;
     width: 75%;
+}
+
+.moneysafe{
+    width: 60%;
 }
 
 .securityhead{
@@ -509,17 +512,17 @@ p{
 /* SECTION FIVE */
 
 .section5{
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
+    padding-left: 50px;
     width: 100%;
     height: 200px;
-    padding: 50px;
 }
 
 .center{
-    position: absolute;
-    margin-left: 420px;
-    margin-top: 50px;
-    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    width: 900px;
 }
 
 .slider{
@@ -529,7 +532,7 @@ p{
 
 .slide{
     overflow: hidden;
-    height: 80px;
+    height: 90px;
 }
 
 .slide div div {
@@ -537,7 +540,7 @@ p{
     display: inline-block;
     color: rgb(1, 1, 80);
     opacity: 0.7;
-    padding: 4px 12px;
+    padding: 5px 0;
     border-radius: 2px;
     margin-bottom: 60px;
 }
@@ -576,7 +579,6 @@ p{
 
 .boxsec6{
     width: 49%;
-    height: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -600,16 +602,17 @@ sub{
 }
 
 .ratebox{
-    width: 85%;
+    width: 220px;
     display: flex;
     justify-content: space-between;
     height: 50px;
+    margin-bottom: 40px;
 }
 
 .stardiv{
     margin-top: 13px;
     height: 60%;
-    width: 25%;
+    width: 110px;
 }
 
 .checked{
@@ -671,9 +674,10 @@ sub{
 .section7{
     background-color: rgb(0, 89, 255);
     width: 92%;
-    height: 300px;
     margin-top: 50px;
-    padding: 0 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -733,6 +737,12 @@ sub{
     padding-left: 15px;
     padding-right: 200px;
     margin-top: 100px;
+}
+
+.subsec8{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .fbox{
@@ -886,7 +896,7 @@ sub{
     }
 
     .box1{
-        width: 95%;
+        width: 100%;
         height: 500px;
         margin-top: 15px;
     }
@@ -949,13 +959,13 @@ sub{
 
     #section2{
         flex-direction: column;
-        padding: 20px;
-        margin-top: 150px;
+        padding: 0 20px;
+        margin-top: 170px;
     }
 
     .section2{
         width: 100%;
-        padding: 0 20px;
+        
     }
 
     .box3{
@@ -967,12 +977,12 @@ sub{
     }
 
     .box4{
-        width: 95%;
+        width: 98%;
     }
 
     .box4div{
         padding-left: 50px;
-        padding-right: 50px;
+        padding-right: 20px;
     }
 
     .box4text{
@@ -980,7 +990,7 @@ sub{
     }
 
     .box4head{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .text4{
@@ -1017,7 +1027,8 @@ sub{
         width: 100%;
         flex-direction: column;
         justify-content: space-between;
-        padding: 100px 50px;
+        padding: 100px 40px;
+        margin-top: 100px;
     }
 
     .background3{
@@ -1049,18 +1060,24 @@ sub{
     }
 
     .nohead{
-        font-size: 20px;
+        font-size: 18px;
+    }
+
+    .textline{
+        text-align: justify;
     }
 
     .textbox6{
         font-size: 15px;
-        text-align: justify;
+    }
+
+    .vl, .vl3{
+        margin-right: 60px;
     }
 
     /* SECTION FOUR */
     .section4{
         width: 100%;
-        height: 1200px;
         flex-direction: column;
         padding: 100px 20px;
     }
@@ -1070,11 +1087,15 @@ sub{
     }
 
     .subsec4{
-        width: 95%;
+        width: 98%;
+    }
+
+    .moneysafe{
+        width: 98%;
     }
 
     .securityhead{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .textsec4{
@@ -1083,14 +1104,124 @@ sub{
 
     .bank{
         flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .subbank{
-        width: 96%;
+        width: 95%;
+        margin-top: 40px;
     }
 
     .banktext{
         font-size: 16px;
+    }
+
+    /* SECTION FIVE */
+    .section5{
+        padding: 20px;
+    }
+
+    .center{
+        width: 350px; 
+    }
+
+    .slide{
+        height: 100px;
+    }
+
+    .slide div div{
+        font-size: 35px;
+        margin-bottom: 65px;
+    }
+
+    @keyframes animate{
+        0%{margin-top: -430px;}
+        0%{margin-top: -430px;}
+        5%{margin-top: -325px;}
+        20%{margin-top: -325px;}
+        25%{margin-top: -225px;}
+        40%{margin-top: -225px;}
+        45%{margin-top: -130px;}
+        60%{margin-top: -130px;}
+        65%{margin-top: -58px;}
+        80%{margin-top: -58px;}
+        85%{margin-top: 0px;}
+        95%{margin-top: 0px;} 
+    }
+
+    /* SECTION SIX */
+    .section6{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .boxsec6{
+        width: 98%;
+        margin-bottom: 30px;
+    }
+
+    .ratebox{
+        margin-bottom: 20px;
+    }
+
+    .testimonybox{
+        margin-top: 20px;
+    }
+
+    /* SECTION SEVEN */
+    .section7{
+        flex-direction: column;
+        padding: 30px;
+        align-items: flex-start;
+    }
+
+    .sec7head{
+        font-size: 25px;
+    }
+
+    .subsec7{
+        background-color: rgb(0, 89, 255);
+    }
+
+    .box7email{
+        width: 250px;
+        margin-bottom: 15px;
+    }
+
+    /* SECTION EIGHT */
+    .section8{
+        flex-direction: column;
+        padding-right: 50px;
+    }
+
+    .subsec8{
+        width: 100%;
+    }
+
+    /* SECTION NINE */
+    .section9{
+        padding: 20px;
+    }
+
+    .social{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .licensebox{
+        border: none;
+        margin-right: 0;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .ltext{
+        margin-top: 20px;
+    }
+
+    .ltext p{
+        font-size: 12px;
     }
 }
 
