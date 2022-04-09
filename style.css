@@ -546,7 +546,6 @@ p{
     display: inline-block;
     color: rgb(1, 1, 80);
     opacity: 0.7;
-    padding: 5px 0;
     border-radius: 2px;
     margin-bottom: 60px;
 }
@@ -1133,29 +1132,30 @@ sub{
     }
 
     .center{
-        width: 350px; 
+        width: 340px; 
+        margin-top: 5px;
     }
 
     .slide{
-        height: 100px;
+        height: 60px;
     }
 
     .slide div div{
-        font-size: 35px;
+        font-size: 23px;
         margin-bottom: 65px;
     }
 
     @keyframes animate{
         0%{margin-top: -430px;}
         0%{margin-top: -430px;}
-        5%{margin-top: -325px;}
-        20%{margin-top: -325px;}
-        25%{margin-top: -225px;}
-        40%{margin-top: -225px;}
-        45%{margin-top: -122px;}
-        60%{margin-top: -122px;}
-        65%{margin-top: -57px;}
-        80%{margin-top: -57px;}
+        5%{margin-top: -340px;}
+        20%{margin-top: -340px;}
+        25%{margin-top: -250px;}
+        40%{margin-top: -250px;}
+        45%{margin-top: -160px;}
+        60%{margin-top: -160px;}
+        65%{margin-top: -70px;}
+        80%{margin-top: -70px;}
         85%{margin-top: 0px;}
         95%{margin-top: 0px;} 
     }
@@ -1164,6 +1164,7 @@ sub{
     .section6{
         flex-direction: column;
         padding: 0 20px;
+        margin-top: 0;
     }
 
     .boxsec6{
