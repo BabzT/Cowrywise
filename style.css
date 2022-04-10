@@ -32,7 +32,6 @@ p{
 }
 
 /* HEADER */
-
 .header{
     background-color: white;
     width: 100%;
@@ -45,19 +44,22 @@ p{
 }
 
 .logo{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
-.navlist{
-    padding-top: 7px;
-    width: 90%;
-    padding-left: 50px;
+.menu{
     display: flex;
+    width: 90%;
     align-items: center;
     justify-content: space-between;
 }
 
-.dropbtn{
+.dropbtns{
+    display: flex;
+}
+
+
+.dropbtn, .learn1{
     color: lightslategray;
     font-size: 17px;
     font-weight: 500;
@@ -70,6 +72,11 @@ p{
 .dropbtn:hover{
     color: black;
 }
+
+.learn1:hover{
+    color: black;
+}
+
 
 .loginbtn button{
     background-color: white;
@@ -92,9 +99,19 @@ p{
     cursor: pointer;
 }
 
+.menulinks{
+    display: none;
+}
+
+.menutext{
+    display: none;
+}
+
+.menu-btn{
+    display: none;
+}
+
 /* SECTION ONE */
-
-
 
 .section1{
     width: 100%;
@@ -869,31 +886,169 @@ sub{
     }
 
     /* HEADER */
+
     .header{
-        display: none;
-        padding: 0;
-    }
-
-    .navlist {
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-    }
-
-    .dropbtn{
         display: block;
         padding: 0;
     }
 
-    .lsbtn{
-        display: flex;
-        flex-direction: column-reverse;
+    .header .logo{
+        float: left;
+        display: block;
+        padding: 0 20px;
+        margin-top: 20px;
     }
+
+    .header ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+    }
+
+    .header ul a{
+        display: block;
+        padding: 10px;
+    }
+
+    .header .menu{
+        display: block;
+        background-color: rgb(0, 89, 255);
+        width: 100%;
+        padding-left: 20px;
+        clear: both;
+        max-height: 0;
+        transition: max-height .9s ease-in-out;
+    }
+
+    .dropbtns{
+        display: block;
+        color: white;
+    }
+
+    .fas{
+        font-size: 25px;
+    }
+
+
+    .dropbtn, .learn1{
+        width: 100%;
+        background-color: rgb(0, 89, 255);
+    }
+
+    .dropbtn{
+        font-size: 30px;
+        color: white;
+    }
+
+    .dropbtn:hover{
+        color: gainsboro;
+        transition: all .5s ease-in-out;
+    }
+
+    .learn1{
+        font-size: 22px;
+        color: gainsboro;
+    }
+
+    .learn1:hover{
+        color: gainsboro;
+    }
+
+    .lsbtn{
+        display: none;
+    }
+    
+    .menulinks{
+        background-color: rgb(0, 89, 255);
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 22px;
+        border: 0px;
+        cursor: pointer;
+    }
+
+    .menulinks li a{
+        color: gainsboro;
+    }
+
+    .menutext{
+        display: inline-block;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .menutext p{
+        font-size: 12px;
+        color: gainsboro;
+    }
+
+  
+    .header .menu-icon{
+        padding: 28px 20px;
+        position: relative;
+        float: right;
+        cursor: pointer;
+    }
+
+    .header .menu-icon .nav-icon{
+        background-color: black;
+        display: block;
+        height: 2px;
+        width: 20px;
+        position: relative;
+        transition: background .2s ease-out;
+    }
+
+    .header .menu-icon .nav-icon::before{
+        background-color: black;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: 5px;
+    }
+
+    .header .menu-icon .nav-icon::after{
+        background-color: black;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: -5px;
+    }
+
+    .header .menu-btn:checked ~ .menu{
+        max-height: 1000px;
+    }
+
+    .header .menu-btn:checked ~ .menu-icon .nav-icon{
+        background: transparent;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon::before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+
+
 
     /* SECTION ONE */
 
     .section1{
-        margin-top: 80px;
+        margin-top: 50px;
         padding: 0;
         flex-direction: column-reverse;
         align-items: center;

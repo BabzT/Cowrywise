@@ -13,9 +13,9 @@
     <div class="container">
 
         <!-- HEADER -->
-    <section class="header">
+    <header class="header">
         <a href="" class="logo">
-           <svg width="152" height="29" viewBox="0 0 152 29" fill="none" 
+           <svg width="152" height="29" viewBox="0 0 152 29" fill="currentcolor" 
            xmlns="http://www.w3.org/2000/svg" svg-inline="" role="presentation" focusable="false" tabindex="-1"><g clip-path="url(#clip0_10311_7421)" fill="#0067F5"><path d="M14 .5H6.154l-.015.027L5.056 2.5H14c6.625 0 12 5.372 12 12s-5.373 12-12 12-12-5.373-12-12c0-1.254.196-2.5.582-3.692h2.29A9.846 9.846 0 1014 4.655H3.873l-1.097 2H14a7.845 7.845 0 
             11-6.923 4.152h2.595a5.689 5.689 0 104.328-2H1.593l-1.097 2A14.025 14.025 0 000 14.5c0 7.732 6.268 14 14 14s14-6.268 14-14-6.268-14-14-14zm0 10.308a3.693 3.693 0 110 7.385 3.693 3.693 0 010-7.385zM34.154 14.796c0-3.89 2.61-6.622 6.523-6.622 2.412 0 
             4.381 1.058 5.415 2.83l-2.264 1.6c-.714-1.132-1.797-1.673-3.077-1.673-2.116 0-3.52 1.503-3.52 3.865 0 2.338 1.403 3.864 3.52 3.864 1.28 0 2.363-.566 3.077-1.699l2.264 1.6c-1.034 1.798-3.003 2.832-5.415 2.832-3.914 0-6.523-2.733-6.523-6.597zM46.518 
@@ -30,28 +30,34 @@
             1.92-3.938 5.17-3.938 2.215 0 4.061.762 5.144 1.994l-1.6 1.944c-1.083-.935-2.314-1.378-3.619-1.378-1.403 0-2.092.517-2.092 1.28 0 .59.418.96 1.748 1.255l2.166.517c2.633.591 3.594 1.797 3.594 3.52 0 2.486-1.921 4.087-5.243 4.087-2.486 0-4.578-.936-5.711-2.388zM151.636 15.681h-9.331c.32 
             2.02 1.649 3.102 3.692 3.102 1.403 0 2.585-.517 3.496-1.576l1.797 1.773c-1.182 1.526-3.077 2.413-5.391 2.413-3.988 0-6.647-2.61-6.647-6.548 0-3.89 2.561-6.671 6.352-6.671 3.643 0 6.104 2.535 6.104 6.35 0 .387-.025.774-.072 1.158zm-9.331-2.042h6.403c-.148-1.846-1.281-2.855-3.077-2.855-1.848 0-3.005 1.058-3.326 2.855z"></path></g><defs><clipPath id="clip0_10311_7421"><path fill="#fff" transform="translate(0 .5)" 
             d="M0 0h151.709v28H0z"></path></clipPath></defs></svg>
-        </a>
-        <div class="navlist">
-            <div>
-            <button class="dropbtn">Personal
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <button class="dropbtn">Business
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <button class="dropbtn">Developer
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <a href="" class="dropbtn">Learn</a>
+        </a>  
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <div class="dropbtns">
+            <li><a class="dropbtn" href="">Personal <i class='fas fa-angle-down'></i></a></li>
+            <li><a class="dropbtn" href="">Business <i class='fas fa-angle-down'></i></a></li>
+            <li><a class="dropbtn" href="">Developer <i class='fas fa-angle-down'></i></i></a></li>
+            <div class="menulinks">
+                <li><a  href="">Sign Up</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">FAQ's</a></li>
+                <li><a href="">Security</a></li>
+            </div>
+            <li><a class="learn1" href="">Learn</a></li>
         </div>
-    
             <div class="lsbtn">
                 <a href="" class="loginbtn"><button>Log In</button></a>
                 <a href="" class="signbtn"><button>Sign Up For Free</button></a>
             </div>
-        </div>
-        </div>
-    </section>
+            <div class="menutext">
+                <p>Cowrywise Financial Technology Limited ("Cowrywise") is 
+                    a fund maanger duly licensed by the Securities and Exchange Commission
+                    (SEC) of Nigeria.</p>
+            </div>
+        </ul>
+    </header>
         
         <!-- SECTION ONE -->
         <section class="section1">
@@ -128,7 +134,7 @@
                 <p class="box4text">Savings</p>
                 <h1 class="box4head">Create multiple savings plans</h1>
                 <p class="text4">Earn better interest rates than your bank</p>
-                <a href="" class="box4link">start saving ></a>
+                <a href="" class="box4link">start saving <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
             </div>
                 <div class="subbox4">
                     <div class="savingsbox">
@@ -145,7 +151,7 @@
                 <p class="box4text">Mutual Funds</p>
                 <h1 class="box4head">Play the long-term game</h1>
                 <p class="text4">Invest in diverse and quality mutual funds with any amount</p>
-                <a href="" class="box4link">start investing ></a>
+                <a href="" class="box4link">start investing <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
             </div>
             <div class="subbox4">
                 <div class="savingsbox">
@@ -162,7 +168,7 @@
                 <p class="box4ctext">Stash</p>
                 <h1 class="box4chead" >Your secure digital wallet</h1>
                 <p class="text4c" >Send and receive cash in seconds for free. You only need their username.</p>
-                <a href="" class="box4clink" >EXPLORE IT NOW ></a>
+                <a href="" class="box4clink" >EXPLORE IT NOW <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
             </div>
             <div class="subbox4">
                 <div class="savingsbox">
@@ -181,7 +187,7 @@
                 <p class="box4text">Circles</p>
                 <h1 class="box4head">Save with friends</h1>
                 <p class="text4">Stay motivated and have fun saving with friends and family</p>
-                <a href="" class="box4link">join a circle ></a>
+                <a href="" class="box4link">join a circle <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
             </div>
             <div class="subbox4">
                 <div class="savingsbox">
@@ -198,7 +204,7 @@
                 <p class="box4text">Emergency Funds</p>
                 <h1 class="box4head">Save for the rainy day</h1>
                 <p class="text4">Build a safety net for unexpected expenses</p>
-                <a href="" class="box4link">create your emergency plan ></a>
+                <a href="" class="box4link">create your emergency plan <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
             </div>
             <div class="subbox4">
                 <div class="savingsbox">
@@ -214,7 +220,7 @@
             <div class="box4div">
                 <p class="box4text">US Stocks and bonds (Coming soon)</p>
                 <h1 class="box4head">Grow your global portfolio</h1>
-                <a href="" class="box4link">get early access ></a>
+                <a href="" class="box4link">get early access <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
             </div>
             <div class="subbox4">
                 <div class="savingsbox">
@@ -284,7 +290,7 @@
             <div class="moneysafe">
             <h1 class="securityhead">Keeping your money safe is our business.</h1>
             <p class="textsec4">Trust is our currency. We are committed to the security of your money and the protection of your account.</p>
-            <a href="" style="color: rgba(255, 255, 255, 0.822); font-size: 14px; font-weight: bold;" >LEARN MORE ></a>
+            <a href="" style="color: rgba(255, 255, 255, 0.822); font-size: 14px; font-weight: bold;" >LEARN MORE <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
         </div>
             <div class="bank">
                 <div class="subbank">
@@ -369,7 +375,7 @@
                 <h1 class="thead">Available on the Play Store</h1>
                 <p class="ttext">“User interface is fantastic, deposits and withdrawals flawless and fast.
                     I wish I had discovered this years ago, would have been a millionaire by now” - Obiora, Nov 2021</p>
-                    <a href="" class="box4link">download now ></a>
+                    <a href="" class="box4link">download now <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
             </div>
         </div>
 
@@ -396,7 +402,7 @@
             <h1 class="thead">Available on the App Store</h1>
             <p class="ttext">“I just don't know what to say about this app all i know is that it's awesome, 
                 it's been 2 years plus and I haven't had a reason to complain.” - Henrietta, December 2021</p>
-                <a href="" class="box4link">download now ></a>
+                <a href="" class="box4link">download now <i style="font-size: 15px;" class='fas fa-chevron-right'></i></a>
         </div>
         </div>
     </section>
