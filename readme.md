@@ -13,8 +13,12 @@ Star:star: the Repo if you like what you see:blush:.
 - Tool: Visual Studio Code.
 
  ## Screenshots :camera_flash:
- ![This is an image](image/sc1.png)
- ![](image/sc2.png)
+ ![](image/sc1.png)![](image/sc2.png)
+ ![](image/sc3.png) ![](image/sc4.png)
+ ![](image/sc5.png) ![](image/sc6.png)
+ ![](image/sc7.png) ![](image/sc8.png)
+ ![](image/sc9.png) ![](image/sc10.png)
+ 
 
 
 
