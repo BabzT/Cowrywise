@@ -14,6 +14,7 @@ Star:star: the Repo if you like what you see:blush:.
 
  ## Screenshots :camera_flash:
  ![This is an image](image/sc1.png)
+ ![](image/sc2.png)
 
 
 
