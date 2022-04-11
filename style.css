@@ -988,7 +988,7 @@ sub{
 
   
     .header .menu-icon{
-        padding: 28px 20px;
+        padding: 35px 20px;
         position: relative;
         float: right;
         cursor: pointer;
@@ -1001,17 +1001,6 @@ sub{
         width: 20px;
         position: relative;
         transition: background .2s ease-out;
-    }
-
-    .header .menu-icon .nav-icon::before{
-        background-color: black;
-        content: "";
-        display: block;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        transition: all .2s ease-out;
-        top: 5px;
     }
 
     .header .menu-icon .nav-icon::after{
@@ -1030,20 +1019,14 @@ sub{
     }
 
     .header .menu-btn:checked ~ .menu-icon .nav-icon{
-        background: transparent;
-    }
-    
-    .header .menu-btn:checked ~ .menu-icon .nav-icon::before{
-        transform: rotate(-45deg);
+        transform: rotate(60deg);
         top: 0;
     }
     
     .header .menu-btn:checked ~ .menu-icon .nav-icon:after{
-        transform: rotate(45deg);
+        transform: rotate(60deg);
         top: 0;
     }
-
-
 
     /* SECTION ONE */
 
