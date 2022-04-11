@@ -13,7 +13,7 @@ Star:star: the Repo if you like what you see:blush:.
 - Tool: Visual Studio Code.
 
  ## Screenshots :camera_flash:
- !(/image/sc1.png)
+ !(/TASK 2/image/sc1.png)
 
 
 
